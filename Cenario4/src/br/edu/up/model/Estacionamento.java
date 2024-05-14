@@ -2,28 +2,30 @@ package br.edu.up.model;
 
 public class Estacionamento {
     private int vagas;
-    private double valorPeriodo = 5.0;
+    private final double valorPeriodo = 5.0;
     private double caixa;
 
-    public void entrada(String Veiculo, int vagas){
-        if(vagas > 0 ){
-
-        }else{
-            return "Estaciomamento cheio"
-        }
+    public Estacionamento(int vagas) {
+        this.vagas = vagas;
     }
 
-    public void saida(){
-        vagas = -1;
-    }
-
-    public void totalVagas(){
+    public int getVagas() {
         return vagas;
     }
 
-    public void relatorio(){
-        return 
+    public void setVagas(int vagas) {
+        this.vagas = vagas;
+    }
+
+    public double getValorPeriodo() {
+        return valorPeriodo;
+    }
+
+    public double getCaixa() {
+        return caixa;
+    }
+
+    public void setCaixa(double caixa) {
+        this.caixa = caixa;
     }
 }
-
-
