@@ -1,7 +1,10 @@
 package br.edu.up;
+import br.edu.up.view.View;
+
 public class Programa {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        View view = new View();
+        view.exibirMenu();
     }
 }
 
