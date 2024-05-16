@@ -1,10 +1,10 @@
 package br.edu.up;
-import br.edu.up.view.View;
+
+import br.edu.up.view.Menu;
 
 public class Programa {
     public static void main(String[] args) throws Exception {
-        View view = new View();
-        view.exibirMenu();
+        Menu menu = new Menu();
+        menu.exibirMenu();
     }
 }
-
