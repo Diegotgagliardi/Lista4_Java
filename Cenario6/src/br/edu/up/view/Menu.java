@@ -24,7 +24,7 @@ public class Menu {
             System.out.println("6 - Sair");
             System.out.print("Digite a opção desejada: ");
             opcao = scanner.nextInt();
-            scanner.nextLine(); // Limpa o buffer do scanner
+            scanner.nextLine();
 
             switch (opcao) {
                 case 1:

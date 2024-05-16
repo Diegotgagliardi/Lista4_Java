@@ -36,7 +36,7 @@ public class AeroportoController {
         String tipo = scanner.nextLine();
         System.out.print("Digite a quantidade de assentos: ");
         int qtdAssentos = scanner.nextInt();
-        scanner.nextLine(); // Limpa o buffer do scanner
+        scanner.nextLine();
         Aeronave aeronave = new Aeronave();
         aeronave.setCodigo(codigo);
         aeronave.setTipo(tipo);
@@ -73,7 +73,7 @@ public class AeroportoController {
         String RG = scanner.nextLine();
         System.out.print("Digite o total de horas de voo: ");
         int totalHorasVoo = scanner.nextInt();
-        scanner.nextLine(); // Limpa o buffer do scanner
+        scanner.nextLine();
         Comandante comandante = new Comandante();
         Pessoa pessoa = new Pessoa();
         pessoa.setNome(nome);
