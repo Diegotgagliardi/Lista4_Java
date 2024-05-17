@@ -17,7 +17,7 @@ public class Pessoal {
 
     @Override
     public String toString() {
-        return "Pessoa(exemplo){nome='" + nome + "', idade=" + idade + "}";
+        return "Pessoal(exemplo){nome='" + nome + "', idade=" + idade + "}";
     }
 
 }

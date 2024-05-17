@@ -15,7 +15,7 @@ public class Menu {
     public void exibirMenu() {
         int opcao = 0;
         do {
-            System.out.println("===== MENU =====");
+            System.out.println("MENU");
             System.out.println("1 - Cadastrar Aeronave");
             System.out.println("2 - Cadastrar Passageiro");
             System.out.println("3 - Cadastrar Comandante");
@@ -43,7 +43,7 @@ public class Menu {
                     aeroportoController.cadastrarTripulacao();
                     break;
                 case 6:
-                    System.out.println("Saindo do sistema...");
+                    System.out.println("Tchau...");
                     break;
                 default:
                     System.out.println("Opção inválida!");
