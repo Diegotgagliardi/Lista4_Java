@@ -17,7 +17,9 @@ public class Pessoal {
 
     @Override
     public String toString() {
-        return "Pessoal(exemplo){nome='" + nome + "', idade=" + idade + "}";
+        return "Pessoal [aniversario=" + aniversario + "]";
     }
+
+    
 
 }
