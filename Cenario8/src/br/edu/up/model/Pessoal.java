@@ -1,10 +1,11 @@
 package br.edu.up.model;
 
-public class Pessoal {
+public class Pessoal extends Contato {
     private String aniversario;
 
-    public void Pessoal(int codigo, String telefone, String aniversario){
-
+    public Pessoal(int codigo, String nome, String telefone, String aniversario) {
+        super(codigo, nome, telefone);
+        this.aniversario = aniversario;
     }
 
     public String getAniversario() {
@@ -17,9 +18,7 @@ public class Pessoal {
 
     @Override
     public String toString() {
-        return "Pessoal [aniversario=" + aniversario + "]";
+        return "Pessoal [codigo=" + getCodigo() + ", nome=" + getNome() + ", telefone=" + getTelefone()
+                + ", aniversario=" + aniversario + "]";
     }
-
-    
-
 }
